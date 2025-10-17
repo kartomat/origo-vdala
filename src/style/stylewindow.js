@@ -23,7 +23,7 @@ const Stylewindow = function Stylewindow(optOptions = {}) {
     css = '',
     viewer,
     closeIcon = '#ic_close_24px',
-    palette = ['rgb(166,206,227)', 'rgb(31,120,180)', 'rgb(178,223,138)', 'rgb(51,160,44)', 'rgb(251,154,153)', 'rgb(227,26,28)', 'rgb(253,191,111)']
+    palette = ['rgb(166,206,227)', 'rgb(31,120,180)', 'rgb(0, 0, 255)', 'rgb(0, 255, 255)', 'rgb(0, 128, 128)', 'rgb(0, 0, 128)', 'rgb(178,223,138)', 'rgb(51,160,44)', 'rgb(0, 255, 0)', 'rgb(0, 128, 0)', 'rgb(128, 128, 0)', 'rgb(253,191,111)', 'rgb(251,154,153)', 'rgb(227,26,28)', 'rgb(255, 0, 0)', 'rgb(128, 0, 0)', 'rgb(255, 255, 0)', 'rgb(255, 0, 255)', 'rgb(128, 0, 128)', 'rgb(255,255,255)', 'rgb(127,127,127)', 'rgb(192, 192, 192)', 'rgb(0,0,0)']
   } = optOptions;
 
   let annotationField;
